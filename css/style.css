@@ -7,6 +7,7 @@
 
 :root{
     --header-height:60px;
+    --footer-height:40px;
 }
 
 /*
@@ -55,6 +56,10 @@ label {
 
 .is-center {
     text-align: center;
+}
+
+.padding-10{
+    padding:5px;
 }
 
 
@@ -207,7 +212,6 @@ a.pure-button-primary {
     min-height: 12%;
     z-index: 2;
     background: white;
-
 }
 
 /* We want to give the content area some more padding */
@@ -239,15 +243,18 @@ a.pure-button-primary {
 /* This is the class used for the dark-background areas. */
 .ribbon {
     background: #2d3e50;
-    color: #aaa;
+    color: #c5c5c5;
 }
 
 /* This is the class used for the footer */
-.footer {
-    background: #111;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.footer {  
+  width: 100%;
+  height: var(--footer-height);
+  z-index:1;
+  background: #ffffff;
+  color:#434343;
+  font-weight:200;
+  font-size:0.8em;
 }
 
 /*
