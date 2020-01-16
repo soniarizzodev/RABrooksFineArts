@@ -246,6 +246,34 @@ a.pure-button-primary {
     color: #c5c5c5;
 }
 
+/* Overriding slider style */
+.l-box-custom{
+    padding:30px;
+}
+.slider img{
+    max-height:60vh;
+    padding:5px;
+}
+
+/* slider arrows */
+.slick-prev {
+    left: -35px !important;
+}
+
+.slick-next{
+    right: -40px !Important;
+}
+
+.slick-prev, .slick-next{
+    width:35px !important;
+}
+.slick-prev:before,
+.slick-next:before
+{
+    font-size: 35px !important;    
+    color: #9ea0a2 !important;   
+}
+
 /* This is the class used for the footer */
 .footer {  
   width: 100%;
