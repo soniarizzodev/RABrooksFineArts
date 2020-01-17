@@ -20,8 +20,8 @@ html{
 }
 body {
     line-height: 1.7em;
-    color: #7f8c8d;
-    font-size: 13px;
+    color: #31373c;
+    font-size: 13pt;
     font-family: 'Raleway', sans-serif;
     height:100%;
 }
@@ -43,7 +43,7 @@ h4,
 h5,
 h6,
 label {
-    color: #34495e;
+    color: #48525b;
 }
 
 .pure-img-responsive {
@@ -229,6 +229,15 @@ a.pure-button-primary {
     padding: 1em 1em 3em;
 }
 
+content .p{
+    font-size:1.1em;
+    font-weight:300;
+}
+
+.ribbon p{
+    font-weight:300;
+}
+
 /* This is the class used for the main content headers (<h2>) */
 .content-head {
     font-weight: 400;
@@ -253,7 +262,7 @@ a.pure-button-primary {
 /* This is the class used for the dark-background areas. */
 .ribbon {
     background: #2d3e50;
-    color: #c5c5c5;
+    color: #dfdfdf;
 }
 
 /* Overriding slider style */
