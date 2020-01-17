@@ -171,7 +171,7 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: url(../imgs/Castle.jpg);
+    background: url(../imgs/Castle-background.jpg);
     background-size: cover;
     z-index: 1;
     overflow: hidden;
