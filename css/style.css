@@ -14,11 +14,21 @@
  * -- BASE STYLES --
  * Most of these are inherited from Base, but I want to change a few.
  */
+
+html{
+    height:100%;
+}
 body {
     line-height: 1.7em;
     color: #7f8c8d;
     font-size: 13px;
     font-family: 'Raleway', sans-serif;
+    height:100%;
+}
+
+main.full-height{
+    min-height:100%;
+    margin-top:var(--header-height);
 }
 
 html, button, input, select, textarea,
@@ -283,6 +293,10 @@ a.pure-button-primary {
   color:#434343;
   font-weight:200;
   font-size:0.8em;
+}
+
+.thumbnail{
+    height:100px;    
 }
 
 /*
