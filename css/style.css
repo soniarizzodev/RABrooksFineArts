@@ -260,9 +260,10 @@ a.pure-button-primary {
 .l-box-custom{
     padding:30px;
 }
-.slider img{
-    max-height:60vh;
-    padding:5px;
+
+.slider img {
+    max-height: 60vh;
+    padding: 5px;
 }
 
 /* slider arrows */
@@ -270,19 +271,20 @@ a.pure-button-primary {
     left: -35px !important;
 }
 
-.slick-next{
+.slick-next {
     right: -40px !Important;
 }
 
-.slick-prev, .slick-next{
-    width:35px !important;
+.slick-prev, .slick-next {
+    width: 35px !important;
 }
+
 .slick-prev:before,
-.slick-next:before
-{
-    font-size: 35px !important;    
-    color: #9ea0a2 !important;   
+.slick-next:before {
+    font-size: 35px !important;
+    color: #9ea0a2 !important;
 }
+
 
 /* This is the class used for the footer */
 .footer {  
