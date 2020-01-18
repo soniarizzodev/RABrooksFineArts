@@ -30,15 +30,29 @@
 </head>
 <body>
     <header class="header">
-        <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+        <nav class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
             <a class="pure-menu-heading" href="">RABrooksFineArts</a>
             <ul class="pure-menu-list">
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Home</a></li>
+                <li class="pure-menu-item"><a href="index.html" class="pure-menu-link">Home</a></li>
                 <li class="pure-menu-item"><a href="#" class="pure-menu-link">About</a></li>
                 <li class="pure-menu-item"><a href="gallery.html" class="pure-menu-link">Gallery</a></li>
                 <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact Me</a></li>
             </ul>
-        </div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <nav class="full-page-menu">
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="index.html" class="pure-menu-link">Home</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">About</a></li>
+                <li class="pure-menu-item"><a href="gallery.html" class="pure-menu-link">Gallery</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact Me</a></li>
+            </ul>
+        </nav>
     </header>
     <section class="splash-container">
 
@@ -51,7 +65,7 @@
 
 
     </section>
-    <main class="content-wrapper">
+    <main id="main" class="content-wrapper">
         <section class="content">
             <h2 class="content-head is-center">Works</h2>
             <div class="pure-g">
@@ -165,6 +179,12 @@
                 variableWidth: true,
                 respondTo: 'slider'
                 
+            });
+
+            $('.menu-toggle').click(function () {
+                $(this).toggleClass('open');
+
+                $('.full-page-menu').toggleClass('open');
             });
         });
     </script>
